@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-image: url(./page-accueil.jpg);
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.App-logo {
+  display: block;
+  width: auto;
+  height: 100px;
+}
+
+.App-header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hook-mqtt {
+  display: flex;
+  justify-content: space-between;
+}
+.hook-mqtt aside {
+  max-width: 30vw;
+  min-width: 30vw;
+}

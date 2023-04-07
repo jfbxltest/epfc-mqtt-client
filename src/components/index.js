@@ -98,8 +98,8 @@ const HookMqtt = () => {
   };
 
   return (
-    <>
-      <aside>
+    <div className="max-w-[90%] mx-auto md:max-w-full md:px-6 md:flex md:justify-between">
+      <div className="md:max-w-lg">
         <Connection
           connect={mqttConnect}
           disconnect={mqttDisconnect}
@@ -109,11 +109,11 @@ const HookMqtt = () => {
           <Subscriber sub={mqttSub} unSub={mqttUnSub} showUnsub={isSubed} />
           <Publisher publish={mqttPublish} />
         </QosOption.Provider>
-      </aside>
-      <aside>
+      </div>
+      <div className="md:w-1/3">
         <Receiver payload={payload} />
-      </aside>
-    </>
+      </div>
+    </div>
   );
 };
 

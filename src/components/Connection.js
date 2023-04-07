@@ -49,7 +49,7 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
       onFinish={onFinish}
     >
       <Row gutter={20}>
-        <Col span={8}>
+        <Col xs={16} md={8}>
           <Form.Item label="Host" name="host">
             <Input />
           </Form.Item>

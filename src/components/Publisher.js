@@ -29,7 +29,7 @@ const Publisher = ({ publish }) => {
             <Input />
           </Form.Item>
         </Col>
-        <Col span={4}>
+        <Col span={6}>
           <Form.Item label="QoS" name="qos">
             <Select options={qosOptions} />
           </Form.Item>
